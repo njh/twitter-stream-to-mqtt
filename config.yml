@@ -12,6 +12,7 @@ hashtags:
   - marquette
   - mochad
   - mosquitto
+  - multicast
   - mqtt
   - nanode
   - oggcamp
@@ -35,3 +36,5 @@ users:
   - pachube
   - pyrhho
   - ralight
+  - red_ferries
+  - redjets
