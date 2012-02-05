@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# daemontools run file
+# http://cr.yp.to/daemontools.html
+#
+
+exec setuidgid 'nobody' \
+     envdir 'env' \
+     ruby twitter-stream-to-mqtt.rb
