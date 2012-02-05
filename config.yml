@@ -1,0 +1,36 @@
+---
+mqtt:
+  host: test.mosquitto.org
+  port: 1883
+
+hashtags:
+  - arduino
+  - dbpedialite
+  - debian
+  - eventmachine
+  - marquette,
+  - mochad
+  - mosquitto
+  - mqtt
+  - nanode
+  - oggcamp
+  - raspberry_pi
+  - rsmb
+  - ubuntu
+  - uksnow
+
+users:
+  - andrewdlindsay
+  - andypiper
+  - andysc
+  - chemicaloliver
+  - ciemon
+  - davejlocke
+  - knolleary
+  - lauracowen
+  - monsonite
+  - mqttorg
+  - njh
+  - pachube
+  - pyrhho
+  - ralight

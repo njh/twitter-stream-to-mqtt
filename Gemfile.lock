@@ -1,0 +1,35 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.6)
+    cookiejar (0.3.0)
+    em-http-request (1.0.1)
+      addressable (>= 2.2.3)
+      cookiejar
+      em-socksify
+      eventmachine (>= 1.0.0.beta.4)
+      http_parser.rb (>= 0.5.3)
+    em-mqtt (0.0.1)
+      eventmachine
+      mqtt (>= 0.0.8)
+    em-socksify (0.1.0)
+      eventmachine
+    eventmachine (1.0.0.beta.4)
+    http_parser.rb (0.5.3)
+    json (1.6.4)
+    mqtt (0.0.8)
+    simple_oauth (0.1.5)
+    twitter-stream (0.1.14)
+      eventmachine (>= 0.12.8)
+      http_parser.rb (~> 0.5.1)
+      simple_oauth (~> 0.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  em-http-request
+  em-mqtt
+  eventmachine (>= 1.0.0.beta)
+  json
+  twitter-stream
