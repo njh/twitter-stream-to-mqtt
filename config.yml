@@ -10,15 +10,19 @@ hashtags:
   - debian
   - eventmachine
   - ipv6
+  - linkeddata
   - marquette
   - mochad
   - mosquitto
-  - multicast
   - mqtt
+  - multicast
   - nanode
   - oggcamp
   - raspberry_pi
+  - rdf
   - rsmb
+  - semanticweb
+  - sparql
   - ubuntu
   - uksnow
 
