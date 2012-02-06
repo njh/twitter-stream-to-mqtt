@@ -12,6 +12,9 @@ SCREEN_NAMES = CONFIG['users'].map {|u| u.downcase}
 HASHTAGS = CONFIG['hashtags'].map {|h| h.downcase}
 PUBLISH_USER_KEYS = ['created_at', 'name', 'id', 'location', 'url', 'description']
 
+raise "The TWITTER_AUTH environment variable should be set to username:password" unless ENV['TWITTER_AUTH']
+
+
 def publish_status(mqtt, screen_name, data)
   return if data.nil?
   ['created_at', 'id', 'text'].each do |key|
