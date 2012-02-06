@@ -5,6 +5,7 @@ mqtt:
 
 hashtags:
   - arduino
+  - currentcost
   - dbpedialite
   - debian
   - eventmachine
