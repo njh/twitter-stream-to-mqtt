@@ -19,6 +19,7 @@ hashtags:
   - nanode
   - oggcamp
   - raspberry_pi
+  - raspberrypi
   - rdf
   - rsmb
   - semanticweb
@@ -41,5 +42,6 @@ users:
   - pachube
   - pyrhho
   - ralight
+  - raspberry_pi
   - red_ferries
   - redjets
