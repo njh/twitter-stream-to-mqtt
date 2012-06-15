@@ -6,4 +6,5 @@
 
 exec setuidgid 'nobody' \
      envdir 'env' \
+     softlimit -m 50000000 \
      ruby twitter-stream-to-mqtt.rb
