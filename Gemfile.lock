@@ -1,28 +1,29 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.2.6)
-    cookiejar (0.3.0)
-    em-http-request (1.0.1)
-      addressable (>= 2.2.3)
-      cookiejar
-      em-socksify
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    cookiejar (0.3.3)
+    em-http-request (1.1.5)
+      addressable (>= 2.3.4)
+      cookiejar (!= 0.3.1)
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-mqtt (0.0.5)
+      eventmachine
+      mqtt (>= 0.3.0)
+    em-socksify (0.3.2)
       eventmachine (>= 1.0.0.beta.4)
-      http_parser.rb (>= 0.5.3)
-    em-mqtt (0.0.1)
-      eventmachine
-      mqtt (>= 0.0.8)
-    em-socksify (0.1.0)
-      eventmachine
-    eventmachine (1.0.0.beta.4)
-    http_parser.rb (0.5.3)
-    json (1.6.4)
-    mqtt (0.0.8)
-    simple_oauth (0.1.5)
-    twitter-stream (0.1.14)
+    eventmachine (1.2.5)
+    http_parser.rb (0.6.0)
+    json (2.1.0)
+    mqtt (0.5.0)
+    public_suffix (3.0.2)
+    roauth (0.0.8)
+    twitter-stream (0.1.12)
       eventmachine (>= 0.12.8)
-      http_parser.rb (~> 0.5.1)
-      simple_oauth (~> 0.1.4)
+      roauth (>= 0.0.2)
 
 PLATFORMS
   ruby
@@ -33,3 +34,6 @@ DEPENDENCIES
   eventmachine (>= 1.0.0.beta)
   json
   twitter-stream
+
+BUNDLED WITH
+   1.13.7
